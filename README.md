@@ -1,5 +1,4 @@
 # AWS Security Auditing Container
----
 
 ## Background
 This Docker container aims to ease the process of auditing AWS environments for security issues. It bundles handy open-source AWS security analysis tools (plus the AWS CLI/Shell), handles their installation/dependencies, and provides a convenience launcher script. The focus is on finding issues by interrogating AWS APIs and analyzing the results (rather than e.g. looking inside EC2 instances, at application code, or other resources that are opaque to the AWS APIs).
